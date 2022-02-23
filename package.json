@@ -1,0 +1,40 @@
+{
+    "name": "eslint-config-phosphor",
+    "description": "ESLint configs for the Phosphor compiler project",
+    "version": "1.0.0",
+    "author": "Benedikt Magnus",
+    "license": "MIT",
+    "keywords": [
+        "Phosphor",
+        "eslint",
+        "eslintconfig",
+        "styleguide",
+        "typescript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PhosphorLang/eslint-config-phosphor"
+    },
+    "bugs": {
+        "url": "https://github.com/PhosphorLang/eslint-config-phosphor/issues"
+    },
+    "engines": {
+        "node": "^12.22.0 || ^14.17.0 || ^16.0.0"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0"
+    },
+    "devDependencies": {
+    },
+    "peerDependencies": {
+        "eslint": "^8.0.0"
+    },
+    "main": "index.js",
+    "files": [
+        "configs",
+        "*.js",
+        "LICENSE",
+        "README.md"
+    ]
+}
