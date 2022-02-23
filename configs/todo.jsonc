@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "./base.jsonc"
+    ],
+    "rules": {
+        "no-warning-comments": [
+            "warn",
+            {
+                "terms": [
+                    "TODO:",
+                    "FIXME:"
+                ],
+                "location": "anywhere"
+            }
+        ]
+    }
+}
