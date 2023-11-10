@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-    extends: ['./configs/all.jsonc']
+    extends: ['./configs/default.jsonc']
 };
