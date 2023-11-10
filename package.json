@@ -19,7 +19,7 @@
         "url": "https://github.com/PhosphorLang/eslint-config-phosphor/issues"
     },
     "engines": {
-        "node": "^12.22.0 || ^14.17.0 || ^16.0.0"
+        "node": "*"
     },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "^5.0.0",
