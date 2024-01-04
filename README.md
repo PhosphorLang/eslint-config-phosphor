@@ -49,7 +49,7 @@ Or if you want to use (for example) everything but the stylistic rules:
 This ruleset is meant to be used for Typescript projects, as such it contains the `typescript-eslint` parser and rules.
 For it to work you have to provide a "project" (the "tsconfig.json") in the "parserOptions".
 It is not meant to be used for Javascript projects. \
-The "es6" environment is set to true and "ecmaVersion" (in "parserOptions") to 2021.
+The "es6" environment is set to true and "ecmaVersion" (in "parserOptions") to 2022.
 If you can only support a lower version of ECMAScript you have to overwrite these values. \
 No other environment is set by default. We recommend setting at least "node" and "browser" to true or false matching your environment.
 
