@@ -1,7 +1,0 @@
-{
-    "extends": [
-        "./base.jsonc",
-        "./problems.jsonc",
-        "./style.jsonc"
-    ]
-}
